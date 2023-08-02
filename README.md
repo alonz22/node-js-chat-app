@@ -13,19 +13,19 @@ This is a real-time chat application built with Node.js, Express, and Socket.io.
 1. Clone the repository to your local machine:
 
 
-git clone https://github.com/alonz22/node-js-chat-app
+```git clone https://github.com/alonz22/node-js-chat-app```
 
-cd node-chat-app
+```cd node-chat-app```
 
 2. Install the dependencies:
 
-npm install
+```npm install```
 
 ### Usage
 
 1. Start the server:
 
-node src/index.js
+```node src/index.js```
 
 2. Open your web browser and visit `http://localhost:3000`.
 
@@ -46,29 +46,30 @@ node src/index.js
 - Socket.io
 
 ### Folder Structure
-
+```
 |-- node-chat-app/
-|-- public/
-|-- index.html
-|-- chat.html
-|-- css/
-|-- styles.css
-|-- .DS_Store
-|-- styles.min.css
-|-- img/
-|-- favicon.png
-|-- js/
-|-- chat.js
-|-- src/
-|-- index.js
-|-- utils/
-|-- messages.js
-|-- users.js
-|-- .gitignore.js
-|-- package.json
-|-- package-lock.json
-|-- README.md
+    |-- public/
+    |   |-- index.html
+    |   |-- chat.html
+    |   |-- css/
+    |   |   |-- styles.css
+    |   |   |-- .DS_Store
+    |   |   |-- styles.min.css
+    |   |-- img/
+    |   |   |-- favicon.png
+    |   |-- js/
+    |       |-- chat.js
+    |-- src/
+    |   |-- index.js
+    |   |-- utils/
+    |   |   |-- messages.js
+    |   |   |-- users.js
+    |-- .gitignore
+    |-- package.json
+    |-- package-lock.json
+    |-- README.md
 
+```
 
 ### Acknowledgments
 
